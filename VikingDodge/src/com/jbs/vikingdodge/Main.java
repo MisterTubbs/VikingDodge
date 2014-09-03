@@ -60,7 +60,7 @@ public class Main implements ApplicationListener, Tickable {
 		Assets.load();
 		Clouds.load();
 
-		api = new API("902ba3cda115fd9bda5938ed1f0ceefae4fe4cd928ae6f934c2abd9867cad9eeee50033bf1d4310baa0c3c2aed", "tubby", 7);
+		api = new API("", "tubby", 7);
 		api.connect();
 		
 		prefs = Gdx.app.getPreferences("VDPrefs");
